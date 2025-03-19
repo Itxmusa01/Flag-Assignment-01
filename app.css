@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.flag {
+    position: relative;
+    width: 300px;
+    height: 150px;
+    background-color: #c8102e; /* Red background */
+    overflow: hidden;
+}
+
+.yellow-triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 200px solid yellow;
+    border-top: 75px solid transparent;
+    border-bottom: 75px solid transparent;
+    top: 0;
+    left: 0;
+}
+
+.black-triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 120px solid black;
+    border-top: 75px solid transparent;
+    border-bottom: 75px solid transparent;
+    top: 0;
+    left: 0;
+}
+
+.white-star {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    left: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+}
